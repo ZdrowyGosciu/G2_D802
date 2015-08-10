@@ -40,5 +40,5 @@ PRODUCT_COPY_FILES += \
 
 # Speed up optimization http://source.android.com/devices/tech/dalvik/configure.html#compiler_filters
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dex2oat-filter=interpret-only \
+    dalvik.vm.dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-filter=speed
